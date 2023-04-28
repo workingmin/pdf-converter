@@ -17,4 +17,3 @@ if __name__ == '__main__':
     converter = pdf2docx.Converter(pdf_file)
     converter.convert(docx_file, start=0, end=None)
     converter.close()
-    
